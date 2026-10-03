@@ -1,4 +1,4 @@
-ADITYA.EXE PORTFOLIO
+ADITYA.EXE CASUAL PORTFOLIO
 ====================
 
 FILES
@@ -39,7 +39,6 @@ You can change:
 
 DARK / LIGHT MODE
 -----------------
-A Dark / Light button is fixed at the top-right.
 
 The visitor can switch themes while browsing.
 
@@ -66,7 +65,7 @@ The profile photo is now fully configurable from config.js.
 
 Change this: \n
 photo: {
-  src: "profile.jpg",
+  src: "photo.jpeg",
   alt: "Aditya Gogoi",
   fallbackText: "AG"
 }
@@ -90,7 +89,7 @@ In config.js:
 }
 
 Available themes:
-yellow / white / purple / green
+yellow / white / purple / green / pink / coral 
 
 CONTACT
 -------
