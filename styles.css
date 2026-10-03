@@ -444,14 +444,10 @@ footer span{color:var(--pink)}
   }
 
   .hero h1{
-  font-size:2.65rem;
-  line-height:.9;
-  width:100%;
-  max-width:220px;
-  margin-bottom:28px;
-  position:relative;
-  z-index:2;
-}
+    font-size:40px;
+    letter-spacing:-2px;
+    white-space:normal;
+  }
 
   .intro{font-size:14px}
 
@@ -474,4 +470,11 @@ footer span{color:var(--pink)}
 @media(max-width:390px){
   .hero{width:91%}
   .polaroid{right:-12px}
+}
+
+@media (max-width: 600px){
+  .hero h1{
+    width: 180px;
+    line-height: .9;
+  }
 }
