@@ -471,3 +471,28 @@ footer span{color:var(--pink)}
   .hero{width:91%}
   .polaroid{right:-12px}
 }
+
+@media (max-width: 600px){
+  .hero{
+    padding-top: 40px;
+  }
+
+  .hero h1{
+    font-size: 3rem;
+    line-height: .95;
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .photo{
+    position: relative;
+    width: 150px;
+    height: 190px;
+    margin: -10px 10px 25px auto;
+    right: auto;
+    top: auto;
+    transform: rotate(5deg);
+    z-index: 3;
+  }
+}
