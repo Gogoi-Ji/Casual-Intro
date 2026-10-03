@@ -471,7 +471,6 @@ footer span{color:var(--pink)}
   .hero{width:91%}
   .polaroid{right:-12px}
 }
-
 @media (max-width: 600px){
   .hero{
     position: relative;
