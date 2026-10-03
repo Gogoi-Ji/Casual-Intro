@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aditya.exe — A Digital Creator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="page">
+
+  <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch theme" title="Switch theme">
+    <span id="themeIcon">☾</span>
+    <span id="themeText">Dark</span>
+  </button>
+
+  <main class="hero">
+    <div class="corner-square"></div>
+
+    <div class="polaroid" id="avatar" title="Click me 5 times 👀">
+      <div class="photo" id="photo"></div>
+      <div class="polaroid-caption" id="polaroidCaption">Me!</div>
+      <div class="hover-me" id="polaroidHint">HOVER ME!</div>
+    </div>
+
+    <h1 id="heroName">HELLO WORLD</h1>
+    <div class="badge" id="badge">A Digital Creator</div>
+    <p class="intro" id="intro"></p>
+
+    <div class="decor green"></div>
+    <div class="decor coral"></div>
+  </main>
+
+  <section class="links" id="links" aria-label="Social links"></section>
+
+  <section class="section" id="about">
+    <div class="section-label" id="aboutLabel">// WHO AM I?</div>
+    <h2 id="aboutTitle"></h2>
+
+    <div class="about-box">
+      <span id="aboutText"></span>
+      <br><br>
+      <span id="aboutExtra"></span>
+      <br><br>
+      <span id="exploringLabel">Currently At:</span>
+      <b id="currentlyAt"></b>
+    </div>
+  </section>
+
+  <section class="section" id="fun">
+    <div class="section-label" id="funLabel">// RANDOM STUFF</div>
+    <h2 id="funTitle"></h2>
+    <div class="fun-grid" id="funGrid"></div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="section-label" id="contactLabel">// SAY HELLO</div>
+
+    <div class="contact-box">
+      <h3 id="contactTitle">Let's talk.</h3>
+      <p id="contactText">Got an idea, project, opportunity or just want to say hi?</p>
+
+      <div class="contact-buttons">
+        <a class="contact-btn" id="emailBtn" href="#">✉ Email</a>
+        <a class="contact-btn" id="whatsappBtn" href="#" target="_blank" rel="noopener">◔ WhatsApp</a>
+        <a class="contact-btn" id="phoneBtn" href="#">☎ Call</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Built by <span id="footerName">Aditya</span>
+    <span>♥</span> • <span id="footerBrand">aditya.exe</span>
+  </footer>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<div class="secret" id="secret">
+  <div class="secret-box">
+    <h2 id="secretTitle">👀 You found it.</h2>
+    <p>
+      <span id="secretText"></span>
+      <br><br>
+      <span id="secretExtraText"></span>
+    </p>
+    <button class="close" id="secretClose" type="button">Okay, I'm cool 😎</button>
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
