@@ -444,10 +444,14 @@ footer span{color:var(--pink)}
   }
 
   .hero h1{
-    font-size:40px;
-    letter-spacing:-2px;
-    white-space:normal;
-  }
+  font-size:2.65rem;
+  line-height:.9;
+  width:100%;
+  max-width:220px;
+  margin-bottom:28px;
+  position:relative;
+  z-index:2;
+}
 
   .intro{font-size:14px}
 
